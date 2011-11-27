@@ -1,0 +1,181 @@
+/*
+
+title: master css
+author: max for frecuencies
+comments: we love our CSS, we love it so much we won't let you have it
+
+*/
+
+/* @group imports */
+@import url(library.css);
+/* @end group */
+
+/* @group base */
+body {
+	background: #000;
+	color: #4c4c4c;
+	font: 12px/1 "Lucida Grande", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* @group headers */
+h1 {
+	background: url(../images/logo.png) no-repeat;
+	height: 22px;
+	margin-bottom: 18px;
+	text-indent: -99999px;
+	width: 147px;
+}
+
+h2, h3 {
+	color: #fff;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	border-bottom: 1px solid #bababa;
+	font-size: 15px;
+	margin-bottom: 20px;
+	padding-bottom: 8px;
+}	
+/* @end group */
+
+/* @group paragraphs */
+p {
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}	
+/* @end group */
+
+/* @group variations */
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.small {
+	font-size: 0.8em;
+}
+/* @end group */
+/* @end group */
+
+/* @group structure */
+/* @group page and wrapper */
+.page {
+  background: #111;
+  padding: 30px 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+	width: 800px;
+}
+
+/* @group user nav */
+#user_nav {
+	margin-bottom: 50px;
+}
+
+#user_nav ul {
+	float: right;
+}
+
+#user_nav ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+#user_nav ul li a {
+	display: block;
+}
+/* @end group */
+
+/* @group discography */
+ul#discography li {
+	background: url(../images/album_artwork_bg.png) no-repeat;
+	height: 185px;
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 185px;
+}
+
+ul#discography li a img {
+	display: block;
+}
+/* @end group */
+/* @end group */
+
+/* @group footer */
+#footer {
+	background: #000;
+	padding: 30px 0;
+}
+
+#footer .container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#footer .container:first-child {
+  border-bottom: 1px solid #111;
+  margin-bottom: 23px;
+}
+
+#footer .container .column {
+	float: left;
+	margin-right: 20px;
+	width: 390px;
+}
+
+#footer .container #contact dl dt {
+	margin-bottom: 6px;
+}
+
+#footer #communities ul li {
+	float: left;
+  margin-right: 20px;
+}
+
+#footer #communities ul li.community_beatport {
+	background: url(../images/community_beatport.png) no-repeat;
+}
+
+#footer #communities ul li.community_twitter {
+	background: url(../images/community_twitter.png) no-repeat;
+}
+
+#footer #communities ul li.community_facebook {
+	background: url(../images/community_facebook.png) no-repeat;
+}
+
+#footer #communities ul li.community_myspace {
+	background: url(../images/community_myspace.png) no-repeat;
+}
+
+#footer #communities ul li a {
+	display: block;
+	height: 40px;
+	text-indent: -99999px;
+	width: 185px;
+}
+/* @end group*/
+/* @end group */
